@@ -4,7 +4,8 @@
 This project aims to **predict employee performance** using Machine Learning techniques. By analyzing various factors such as experience, job role, training, and performance metrics, the system classifies employees into categories like **High**, **Medium**, and **Low** performers.  
 
 It is implemented as a **Streamlit web application**, enabling HR teams to evaluate performance, visualize results, and make data-driven decisions.
-<img width="1919" height="968" alt="Streamlit web application" src="https://github.com/user-attachments/assets/1743ce68-a94a-43e5-bbe5-5e4cca92fc63" />
+<img width="1919" height="972" alt="$RRSD52C" src="https://github.com/user-attachments/assets/7a02b63e-aa4a-4d80-86f8-81c47cb1e5fe" />
+
 
 ---
 
