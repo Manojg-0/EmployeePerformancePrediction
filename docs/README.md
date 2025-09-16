@@ -17,9 +17,9 @@ The architecture describes the **end-to-end flow** of the project:
 ## 📌 Project Workflow
 - Input: Employee dataset (Excel/CSV format).  
 - Processing: Machine Learning pipeline with preprocessing + model training.  
-- Output: Predicted employee performance (High, Medium, Low) with option to save results to Excel.![Uploading Streamlit web application.png…]()
+- Output: Predicted employee performance (High, Medium, Low) with option to save results to Excel.
 
 
-- 
+<img width="1919" height="972" alt="Streamlit web application" src="https://github.com/user-attachments/assets/86bf47d0-374c-4abe-816b-205fa0cb7dad" />
 
 This documentation connects the **research report** with the **working code**, so users understand both the technical and practical aspects of the system.
