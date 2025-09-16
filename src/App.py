@@ -194,5 +194,5 @@ if __name__ == "__main__":
 
 
 
-#stremlit run "app_path"
+#streamlit run "app_path"
 #cd appdata  cd roaming    cd python   cd python312    cd scripts .\streamlit run "app_path"  

@@ -1,41 +1,53 @@
 # Employee Performance Prediction using Machine Learning
 
-A Streamlit-based web application that predicts employee performance using machine learning models (Random Forest).  
-The system ingests employee data, preprocesses it, trains a classification model, and provides real-time predictions for performance categories.
+## 📌 Overview
+This project aims to **predict employee performance** using Machine Learning techniques. By analyzing various factors such as experience, job role, training, and performance metrics, the system classifies employees into categories like **High**, **Medium**, and **Low** performers.  
+
+It is implemented as a **Streamlit web application**, enabling HR teams to evaluate performance, visualize results, and make data-driven decisions.
 
 ---
 
-## 📌 Features
-- Upload employee dataset (Excel format).
-- Train a machine learning model (Random Forest) with accuracy metrics.
-- Interactive web interface built with **Streamlit**.
-- Real-time employee performance prediction via form inputs.
-- Save predictions back to Excel for tracking and comparison.
-- Compare old vs. new employee performance records.
+## 🚀 Problem Statement
+Traditional performance evaluation methods rely on manual reviews, which are often:
+- Subjective and biased  
+- Time-consuming  
+- Lacking transparency and scalability  
+
+This project addresses these limitations by applying **data-driven Machine Learning models** for **objective, fair, and consistent performance evaluations**.
+
+---
+
+## 🎯 Objectives
+- Build a predictive model to classify employees into performance categories.  
+- Enhance HR decision-making with data-driven insights.  
+- Provide an easy-to-use interface for HR professionals.  
+- Optimize workforce management and reduce employee turnover.  
 
 ---
 
 ## 🏗️ System Architecture
-The system includes:
-- **Data Ingestion & Preprocessing** (handling missing values, encoding categorical features).
-- **Feature Extraction** (performance indicators, demographics, job history).
-- **Model Training & Evaluation** (Random Forest, accuracy, precision, recall, F1-score).
-- **Deployment** (Streamlit app for HR professionals).
+The proposed system follows these steps:  
+1. Data Ingestion & Preprocessing  
+2. Feature Extraction  
+3. Model Building (Random Forest, Decision Tree, SVM, etc.)  
+4. Model Training & Evaluation  
+5. Hyperparameter Tuning  
+6. Deployment via Streamlit  
 
-📖 For detailed design, see the [Final Report](docs/final_report.pdf).
-
----
-
-## ⚙️ System Requirements
-- **OS**: Windows 10 / Ubuntu 20.04 / macOS  
-- **Processor**: Intel i5 or better  
-- **RAM**: Minimum 8 GB (16 GB recommended)  
-- **Python**: 3.10 or higher  
 
 ---
 
-## 📦 Dependencies
-Install dependencies using:
+## 🛠️ Tech Stack
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Scikit-learn  
+- **Framework:** Streamlit (for web app)  
+- **Data Storage:** Excel/CSV  
+- **Visualization:** Matplotlib/Seaborn  
 
-```bash
+---
+## Install dependencies:
 pip install -r requirements.txt
+
+## Run the Streamlit app:
+streamlit run src/app.py
+
