@@ -1,9 +1,10 @@
 # Employee Performance Prediction using Machine Learning
-![alt text](<Streamlit web application.png>)
+
 ## 📌 Overview
 This project aims to **predict employee performance** using Machine Learning techniques. By analyzing various factors such as experience, job role, training, and performance metrics, the system classifies employees into categories like **High**, **Medium**, and **Low** performers.  
 
 It is implemented as a **Streamlit web application**, enabling HR teams to evaluate performance, visualize results, and make data-driven decisions.
+<img width="1919" height="968" alt="Streamlit web application" src="https://github.com/user-attachments/assets/1743ce68-a94a-43e5-bbe5-5e4cca92fc63" />
 
 ---
 
@@ -43,7 +44,6 @@ The proposed system follows these steps:
 - **Framework:** Streamlit (for web app)  
 - **Data Storage:** Excel/CSV  
 - **Visualization:** Matplotlib/Seaborn  
-![alt text](<Predicted performance.png>)
 ---
 ## Install dependencies:
 pip install -r requirements.txt
